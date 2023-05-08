@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,sans-serif;
+    height: 100%;
+}
+.name{
+    min-height: 600px;
+    background-size: cover;
+    background-image: url(basic.html/background1.jpg);
+}
+.main
+{
+    /* background-attachment: fixed; */
+    /* width: 40%; */
+    /* height: 300px; */
+    /* margin-top: 15%; */
+    /* margin-left: 30%; */
+    /* background-color: black; */
+    /* border-radius:10px; */
+    /* box-shadow: 5px 5px 80px 5px; */
+    max-width: 200px;
+    padding: 10px;
+    position: absolute;
+    bottom: 50%;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    margin: 3px;
+}
+#txt
+{
+    margin-left: 15%;
+    margin-top: 20%;
+    border: 2px solid rgb(93, 245, 5);
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+ }
+ #txt2 {
+    margin-left: 100px;
+    margin-top: 15px;
+    border: 2px solid rgb(6, 240, 76);
+    padding: 10px;
+    width: 70px;
+    border-radius: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+ }
+ .btn
+ {
+    margin-top: 10%;
+    margin-left: 30%;
+ }
+ #cencel
+ {
+    margin-left: 15%;
+}
+#submit
+ {
+   border: 2px solid black;
+   padding: 10px 10px;
+   border-radius:5px;
+   background-color: blue;
+   color: rgb(233, 14, 14);
+   font-weight:800;
+ }
